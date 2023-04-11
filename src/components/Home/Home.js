@@ -9,7 +9,7 @@ function Home() {
             <Navbar />
             <div className="main-content"> 
             <div className="bodyimage"> </div>
-            <Jumbotron/>
+            <button type="button" className="btn btn-primary btn-lg">Large button</button>
             </div>
             <Footer/> 
         </div>

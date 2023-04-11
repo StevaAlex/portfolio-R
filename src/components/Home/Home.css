@@ -2,10 +2,22 @@
     height: 100vh;
     margin: 15vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: 	white;
+    background: url("../../assets/background.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 5%;
+
 }
 
 .body { 
     background-color: white;
+}
+
+.body button { 
+    background-color: #708238;
+    border-color: #708238;
+}
+.body button:hover, .body button:visited { 
+    background-color: #708238;
+    opacity: 0.5;
 }
