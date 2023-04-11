@@ -3,17 +3,17 @@
     font-size: 1rem ;
 }
 
-.navbar a:visited, .navbar a{ 
+.navbar li:visited, .navbar li{ 
     color: black !important;
     border: black !important;
 }
 
-.navbar a:hover { 
+.navbar li:hover { 
    opacity: 0.5;
    text-decoration: underline 0.1rem;
 
 } 
-.navbar a:hover, .navbar a:focus { 
+.navbar li:hover, .navbar li:focus { 
     text-decoration-color: #708238;
     text-underline-offset: 0.4em;
 }
