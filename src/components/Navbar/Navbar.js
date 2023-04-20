@@ -20,9 +20,9 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse navsec" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link ><li className="nav-link active" aria-current="page" href="#"><FontAwesomeIcon icon="house" />Home</li></Link>
-            <Link><li className="nav-link" href="#"><FontAwesomeIcon icon={faPenToSquare} />Projects</li></Link>
-            <Link><li className="nav-link" href="#"><FontAwesomeIcon icon={faPhone} />Contact</li></Link>
+            <Link to="/" ><li className="nav-link active" aria-current="page" ><FontAwesomeIcon icon="house" />Home</li></Link>
+            <Link to="/projects"><li className="nav-link" ><FontAwesomeIcon icon={faPenToSquare} />Projects</li></Link>
+            <Link to="/contact"><li className="nav-link" ><FontAwesomeIcon icon={faPhone} />Contact</li></Link>
           </div>
         </div>
       </div>
