@@ -8,8 +8,7 @@ function Projects() {
         <div className="body">
             <Navbar />
             <div className="main-content">
-                <div className="bodyimage"> </div>
-                <button type="button" className="btn btn-primary btn-lg">Large button</button>
+                <h1>Projects page</h1>
             </div>
             <Footer />
         </div>
