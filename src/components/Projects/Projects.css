@@ -1,8 +1,4 @@
-
-
 .main-content {
-    height: 100vh;
-    margin: 15vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     display: flex;
@@ -12,10 +8,7 @@
 }
 
 
-.carousel {
-    height: 50vh;
-    width: 50vh;
-}
+
 
 /* --------------COLOURING--------------------- */
 
@@ -33,12 +26,14 @@
     background-color: #708238;
     opacity: 0.5;
 }
+
 /* --------Title--------------------------------------- */
 .projectsTitle {
     position: absolute;
     top: 0%;
 }
-h1 { 
+
+h1 {
     color: #708238;
 }
 
@@ -53,3 +48,46 @@ h1 {
     /* this gives it an absolute poisition of being located 50%(centre) of its parent div, naturally placing it over the image */
 }
 
+/* -----------------------RESPONSIVE DESIGN--------------- */
+@media only screen and (min-width: 960px) {
+    .main-content {
+        height: 90vh;
+        margin: 15vh;
+    }
+
+    .controlButtons {
+        height: 100%;
+    }
+
+    .projectImg {
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-device-width: 959px) {
+    .main-content {
+        height: 60vh;
+        margin: 5vh;
+        width: 80vw;
+    }
+
+    .controlButtons {
+        height: 50%;
+    }
+
+    .carousel {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        top: 10%;
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+    }
+}

@@ -20,32 +20,32 @@ function Projects() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active placeholderContain" data-bs-interval="10000" >
-                            <img src={placeholder} className="d-block w-100" alt="..." />
+                            <img src={placeholder} className="d-block w-100 projectImg" alt="..." />
                             <div className="carousel-caption d-none d-md-block placeholder ">
                                 <h5>Coming soon</h5>
                                 <p>Coming soon</p>
                             </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="10000" >
-                            <img src={placeholder} className="d-block w-100" alt="..." />
+                            <img src={placeholder} className="d-block w-100 projectImg" alt="..." />
                             <div className="carousel-caption d-none d-md-block placeholder">
                                 <h5>Coming soon</h5>
                                 <p>Coming soon</p>
                             </div>
                         </div>
                         <div className="carousel-item " data-bs-interval="10000" >
-                            <img src={placeholder} className="d-block w-100" alt="..." />
+                            <img src={placeholder} className="d-block w-100 projectImg" alt="..." />
                             <div className="carousel-caption d-none d-md-block placeholder">
                                 <h5>Coming soon</h5>
                                 <p>Coming soon</p>
                             </div>
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <button className="carousel-control-prev controlButtons" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <button className="carousel-control-next controlButtons" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>
