@@ -51,6 +51,9 @@ h1 {
 /* -----------------------RESPONSIVE DESIGN--------------- */
 @media only screen and (min-width: 960px) {
     .main-content {
+        background: url("../../assets/background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
         height: 90vh;
         margin: 15vh;
     }
@@ -62,11 +65,13 @@ h1 {
     .projectImg {
         height: 100%;
     }
-
 }
 
 @media only screen and (max-device-width: 959px) {
     .main-content {
+        background: url("../../assets/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 60vh;
         margin: 5vh;
         width: 80vw;
@@ -81,13 +86,5 @@ h1 {
         width: 50%;
         position: absolute;
         top: 10%;
-    }
-
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-        /* For portrait layouts only */
-    }
-
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-        /* For landscape layouts only */
     }
 }
