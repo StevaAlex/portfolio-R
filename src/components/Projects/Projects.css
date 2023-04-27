@@ -1,27 +1,55 @@
-.main-content { 
+
+
+.main-content {
     height: 100vh;
     margin: 15vh;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.carousel { 
+
+.carousel {
     height: 50vh;
     width: 50vh;
 }
 
-.body { 
+/* --------------COLOURING--------------------- */
+
+.body {
     background-color: white;
 }
 
-.body button { 
+.body button {
     background-color: #708238;
     border-color: #708238;
 }
-.body button:hover, .body button:visited { 
+
+.body button:hover,
+.body button:visited {
     background-color: #708238;
     opacity: 0.5;
 }
+/* --------Title--------------------------------------- */
+.projectsTitle {
+    position: absolute;
+    top: 0%;
+}
+h1 { 
+    color: #708238;
+}
+
+/* -------------PLACEHOLDER IMAGES--------------------- */
+.placeholderContain {
+    position: relative;
+}
+
+.placeholder {
+    position: absolute;
+    top: 50%;
+    /* this gives it an absolute poisition of being located 50%(centre) of its parent div, naturally placing it over the image */
+}
+
