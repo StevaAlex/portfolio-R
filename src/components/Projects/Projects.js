@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import style from "./Projects.css";
-import placeholder from "../../assets/background.png"
+import placeholder from "../../assets/blank.png"
 
 function Projects() {
     return (

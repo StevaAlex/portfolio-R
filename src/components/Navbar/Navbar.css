@@ -1,29 +1,33 @@
-.navbar { 
-    background-color: white!important;
-    font-size: 1rem ;
+.navbar {
+    background-color: white !important;
+    font-size: 1rem;
 }
 
-.navbar li:visited, .navbar li{ 
+.navbar li:visited,
+.navbar li {
     color: black !important;
     border: black !important;
 }
 
-.navbar li:hover { 
-   opacity: 0.5;
-   text-decoration: underline 0.1rem;
+.navbar-nav {
+    text-decoration: none;
+    color: #708238 !important;
+}
 
-} 
-.navbar li:hover, .navbar li:focus { 
+.navbar li:hover,
+.navbar li:focus {
+    opacity: 0.5;
+    text-decoration: underline 0.1rem;
     text-decoration-color: #708238;
     text-underline-offset: 0.4em;
 }
 
-.navsec { 
+.navsec {
     display: flex;
     justify-content: flex-end;
-} 
+}
 
-.icon { 
+.icon {
     border-radius: 50%;
     width: 50px;
     border: pink solid 2px;
